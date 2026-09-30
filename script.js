@@ -1,11 +1,16 @@
 function firstWord(s) {
   // your code here
 	let res=""
+	s=s.trim();
 	if(s.length==1)
 	{
 		return s;
 	}
-	s=s.trim();
+	if(s.length==0)
+	{
+		return "";
+	}
+	
 	for(let i=0;i<s.length;i++)
 		{
 			if(s.charAt(i)==" ")
