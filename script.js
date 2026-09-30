@@ -7,8 +7,7 @@ function firstWord(s) {
 	}
 	else
 	{
-	
-	s.trim();
+	s=s.trim();
 	for(let i=0;i<s.length;i++)
 		{
 			if(s.charAt(i)==" ")
@@ -23,5 +22,5 @@ function firstWord(s) {
 
 // Do not change the code below
 
-//const s = prompt("Enter String:");
-//alert(firstWord(s));
+const s = prompt("Enter String:");
+alert(firstWord(s));
