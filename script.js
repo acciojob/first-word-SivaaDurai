@@ -5,8 +5,6 @@ function firstWord(s) {
 	{
 		return s;
 	}
-	else
-	{
 	s=s.trim();
 	for(let i=0;i<s.length;i++)
 		{
@@ -16,7 +14,7 @@ function firstWord(s) {
 			}
 			res+=s.charAt(i);
 		}
-	}
+
 	return res;
 }
 
