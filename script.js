@@ -10,7 +10,7 @@ function firstWord(s) {
 	
 	for(let i=0;i<s.length;i++)
 		{
-			if(s.charAt(i)==" " ||s.charAt(i)=="\t" )
+			if(/\s/.test(charAt(i)))
 			{
 				return res;
 			}
