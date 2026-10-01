@@ -2,10 +2,7 @@ function firstWord(s) {
   // your code here
 	let res=""
 	s=s.trim();
-	if(s.length==1)
-	{
-		return s;
-	}
+	
 	if(s.length==0)
 	{
 		return "";
@@ -13,7 +10,7 @@ function firstWord(s) {
 	
 	for(let i=0;i<s.length;i++)
 		{
-			if(s.charAt(i)==" ")
+			if(s.charAt(i)==" " ||s.charAt(i)=="\t" )
 			{
 				return res;
 			}
